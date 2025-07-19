@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BEP Questionnaire - ISO 19650</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+      background: #f7f9fc;
+    }
+    h2 {
+      color: #2c3e50;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    textarea, input {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    textarea {
+      height: 80px;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #2c3e50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #34495e;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>BEP Questionnaire - ISO 19650</h1>
+
+  <form>
+
+    <label for="email">Your Email ID</label>
+    <input type="email" id="email" name="email" required>
+
+    <h2>I. Project Details</h2>
+    <label>Project Name & Description</label>
+    <textarea name="project_name"></textarea>
+
+    <label>Project Location</label>
+    <textarea name="project_location"></textarea>
+
+    <label>Project Phases</label>
+    <textarea name="project_phases"></textarea>
+
+    <label>Project Timeline</label>
+    <textarea name="project_timeline"></textarea>
+
+    <label>Project Value</label>
+    <textarea name="project_value"></textarea>
+
+    <h2>II. Appointing Party Information</h2>
+    <label>Client Organization Name</label>
+    <textarea name="client_name"></textarea>
+
+    <label>Main Contact Person & Role</label>
+    <textarea name="client_contact"></textarea>
+
+    <label>Client Objectives for BIM</label>
+    <textarea name="bim_objectives"></textarea>
+
+    <label>Asset Management Requirements</label>
+    <textarea name="asset_mgmt"></textarea>
+
+    <h2>III. Team Structure & Contractual</h2>
+    <label>Procurement Route</label>
+    <textarea name="procurement"></textarea>
+
+    <label>Appointed Parties</label>
+    <textarea name="appointed_parties"></textarea>
+
+    <label>Lead Appointed Party</label>
+    <textarea name="lead_party"></textarea>
+
+    <label>BIM Responsibilities Matrix</label>
+    <textarea name="bim_matrix"></textarea>
+
+    <h2>IV. Information Requirements</h2>
+    <label>Exchange Information Requirements (EIR)</label>
+    <textarea name="eir"></textarea>
+
+    <label>Plain Language Questions (PLQ)</label>
+    <textarea name="plq"></textarea>
+
+    <label>Level of Information Need (LoIN)</label>
+    <textarea name="loin"></textarea>
+
+    <label>Use Cases for BIM</label>
+    <textarea name="bim_use_cases"></textarea>
+
+    <h2>V. Information Standards & Tools</h2>
+    <label>File Naming Standards / Classification System</label>
+    <textarea name="classification"></textarea>
+
+    <label>Common Data Environment (CDE)</label>
+    <textarea name="cde"></textarea>
+
+    <label>Model Authoring Tools Used by Teams</label>
+    <textarea name="tools"></textarea>
+
+    <label>Data Exchange Format Requirements</label>
+    <textarea name="data_formats"></textarea>
+
+    <h2>VI. Security & Governance</h2>
+    <label>Security Protocols (as per ISO 19650-5)</label>
+    <textarea name="security"></textarea>
+
+    <label>Change Management Process</label>
+    <textarea name="change_mgmt"></textarea>
+
+    <label>Approval Workflows</label>
+    <textarea name="approvals"></textarea>
+
+    <button type="submit">Submit</button>
+
+  </form>
+
+</body>
+</html>
